@@ -16,8 +16,7 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-    - text: Shop
-      url : /shop
+
     - text: Contact
       url : /contact
 
@@ -26,7 +25,7 @@ urls:
 
 author_logo: photo.jpg
 author: Eman Sami
-author_bio: Hi, my name is John Eman Sami. I built this site using devlopr-jekyll :D
+author_bio: Hi, my name is Eman Sami. 
 author_email: "emansamyy79@gmail.com"
 author_location: Egypt
 # author_website_url: "https://sujaykundu.com"
@@ -36,10 +35,10 @@ hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg.
 # Experiences
 author_work_experiences:
             - company_name: SilkBytes
-              company_logo: google.png
+              company_logo: silkbytes.png
               company_url: https://SilkBytes.com
               designation: Software Engineer
-              description: Worked on various Google Products
+              description: Responsible for the full software development lifecycle, system design, performance tuning, testing, functionality maintenance and documentation
               visibility: true
 
 
@@ -66,16 +65,12 @@ author_project_details:
                 visibility: true
 
 # social links
-twitter_username: johndoe
-github_username:  sujaykundu777
-facebook_username: johndoe
-linkedin_username: johndoe
-behance_username: johndoe
-instagram_username: johndoe
-medium_username: johndoe
-telegram_username: johndoe
-dribbble_username: johndoe
-flickr_username: johndoe
+twitter_username: emansamyjsk
+github_username:  emansamyy
+facebook_username: Eman Samy
+linkedin_username: eman-sami-b0bb107a
+instagram_username: emxavv
+
 
 #for comments ( we got Disqus and Hyvor Commenting, uncomment the one you want to use )
 
