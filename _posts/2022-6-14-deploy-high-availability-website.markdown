@@ -1,9 +1,9 @@
 ---
 layout: post
 author: johndoe
-title: Netlify CMS created this Article
-date: 2020-05-23T09:52:20.613Z
-thumbnail: /assets/img/posts/hello.jpg
+title: "Deploy High Availability Website on AWS"
+date: '2022-6-14 21:45:35 +0200'
+thumbnail: /assets/img/posts/aws.png
 category: jekyll
 summary: Demo Content using Netlify CMS
 keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms

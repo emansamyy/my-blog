@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Welcome to devlopr-jekyll !"
+title:  "Understanding Cats Emotions using Artificial Intelligence"
 summary: "Getting Started using devlopr-jekyll"
-author: johndoe
-date: '2019-05-22 14:35:23 +0530'
+author: Eman Sami
+date: '2021-09-25 21:45:35 +0200'
 category: jekyll
 thumbnail: /assets/img/posts/code.jpg
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes
