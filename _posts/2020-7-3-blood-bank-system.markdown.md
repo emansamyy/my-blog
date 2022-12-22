@@ -4,11 +4,10 @@ title:  "Blood Bank Service"
 summary: "Learn how to add categories in posts"
 author: Eman Sami
 date: '2020-7-3 21:45:35 +0200'
-category: ['jekyll','guides', 'sample_category']
-tags: jekyll
+category: ['Nodejs','Web Development', 'Fullstack']
+tags: Node
 thumbnail: /assets/img/aws.png
-keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi categories and tags
-usemathjax: false
+keywords: Blood bank service, nodejs , express, web development
 permalink: /blog/adding-categories-tags-in-posts/
 ---
 
