@@ -16,7 +16,6 @@ urls:
       url: /blog
     - text: Gallery
       url: /gallery
-
     - text: Contact
       url : /contact
 
@@ -25,12 +24,14 @@ urls:
 
 author_logo: photo.jpg
 author: Eman Sami
-author_bio: Hi, my name is Eman Sami. 
+author_bio: Hi, my name is Eman Sami. An intellectually curious and self-motivated Software Engineer graduated as a Computer Science Major in 2022. Continuously seeking a challenging career for the aim of capitalizing personal technical skills in the field of software development and cloud computing.
+
+
 author_email: "emansamyy79@gmail.com"
 author_location: Egypt
 # author_website_url: "https://sujaykundu.com"
-typewrite-text: devlopr is a jekyll framework built for developers. You can edit this in _config.yml file
-hero_cover_img: sample_cover.jpg # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
+typewrite-text: Software Engineer | Cloud | Devops
+hero_cover_img: 1.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
 author_work_experiences:
@@ -44,11 +45,11 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: lsbu.jpg
+              - college_logo: lsybu.jpg
                 college_name: London South Bank
                 college_url: https://www.lsbu.ac.uk/
                 college_degree: Computer Science
-                description: Bachelor's degree
+                description: Bachelor's degree in Computer Science
                 visibility: true
 
 # Projects

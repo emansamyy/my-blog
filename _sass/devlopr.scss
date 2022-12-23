@@ -12,7 +12,7 @@ html[data-theme="dark"] {
     --highlight-color: hsl(0, 0%, 60%);
     --light-border-color: hsl(0, 0%, 30%);
     --light-text-color: rgb(199, 199, 204);
-    --link-color: #f69801;
+    --link-color: #7701f6;
     --link-color-visited: hsl(250, 100%, 60%);
     --main-background-color: rgb(28, 28, 30);
     --main-text-color: rgb(139, 139, 139);
@@ -53,9 +53,9 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 60%);
         --light-border-color: hsl(0, 0%, 30%);
         --light-text-color: rgb(199, 199, 204);
-        --link-color: #f69801;
+        --link-color:  hsl(250, 100%, 60%);
         --nav-color: #131313;
-        --search-color: #FF7901;
+        --search-color:  hsl(250, 100%, 60%);
         --nav-link-color: rgba(255, 255, 255, .5);
         --link-color-visited: hsl(250, 100%, 60%);
         --main-background-color: rgb(28, 28, 30);
@@ -75,7 +75,7 @@ html[data-theme="light"] {
         --highlight-color: hsl(0, 0%, 80%);
         --light-border-color: rgb(230, 230, 230);
         --light-text-color: rgb(72, 72, 74);
-        --link-color: #ca6521;
+        --link-color: #ca216d;
         --nav-color: #ffffff;
         --nav-link-color: #111111;
         --search-color: #ababab;
@@ -111,7 +111,7 @@ ol, ul {
 
 /* Progress bar */
 .progressline .bar {
-    background: #f69801;
+    background:  hsl(250, 100%, 60%);
 }
 
 /* On scroll progress bar */
@@ -240,7 +240,7 @@ header {
 }
 
 .navbar-dark .navbar-brand {
-    color: #ff7601 !important;
+    color: hsl(250, 100%, 60%) !important;
 }
 .navbar-dark .navbar-nav .nav-link {
     color: var(--nav-link-color) !important;
@@ -349,13 +349,13 @@ header {
         position: absolute;
         top: 10%;
         width: 100%;
-        color: #f69801;
+        color:  hsl(250, 100%, 60%);
         background: rgba(0, 0, 0, 0);
         font-size: 30px;
         font-weight: 300;
         text-align: center;
         border: 0px;
-        border-bottom: 1px dashed #ffa000;
+        border-bottom: 1px dashed  hsl(250, 100%, 60%);
         margin: 0px auto;
         margin-top: -51px;
         padding-left: 30px;
@@ -364,7 +364,7 @@ header {
 
       &:focus {
         border: 0;
-        border-bottom: 1px dashed #ffa000;
+        border-bottom: 1px dashed  hsl(250, 100%, 60%);
       }
     }
 
@@ -543,7 +543,7 @@ header {
     text-rendering: auto;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    color: coral;
+    color:  hsl(250, 100%, 60%);
 }
 
 .product{
@@ -652,7 +652,7 @@ header {
 }
 .article-card-link, .article-card-link:hover{
     text-decoration: none;
-    color: orange !important;
+    color:  hsl(250, 100%, 60%) !important;
 }
 .article-card{
     list-style-type: none;
@@ -763,8 +763,9 @@ header {
     }
 
     #mce-EMAIL_footer {
-        width: 400px;
-        padding: 14px;
+        width: 300px;
+        height: 50px;
+        padding: 12px;
         color: #111;
         border-color: #111;
         background: bisque;

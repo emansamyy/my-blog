@@ -1,7 +1,7 @@
 ---
 name: Eman Sami
 username: emansamyy79
-bio: "Hi I a John, a Software Engineer."
+bio: "Hi I am Eman, a Software Engineer."
 
 email: emansamyy79@gmail.com.com
 social:
