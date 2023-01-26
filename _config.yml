@@ -24,7 +24,7 @@ urls:
 
 author_logo: photo.jpg
 author: Eman Sami
-author_bio: Hi, my name is Eman Sami. An intellectually curious and self-motivated Software Engineer graduated as a Computer Science Major in 2022. Continuously seeking a challenging career for the aim of capitalizing personal technical skills in the field of software development and cloud computing.
+author_bio: Hi, my name is Eman Sami. A self-motivated Software Engineer with a Bachelor's degree in Informatics and Computer Science. Continuously seeking a challenging career for the aim of capitalizing personal technical skills in the field of Software Development and Cloud Devops.
 
 
 author_email: "emansamyy79@gmail.com"
@@ -45,7 +45,7 @@ author_work_experiences:
 
 # Education
 author_education_details:
-              - college_logo: lsybu.jpg
+              - college_logo: lsbu.png
                 college_name: London South Bank
                 college_url: https://www.lsbu.ac.uk/
                 college_degree: Computer Science
@@ -79,10 +79,10 @@ instagram_username: emxavv
 hyvor_talk_website_id: 476
 
 # wakatime username (coding activity)
-wakatime_username: sujaykundu777
+# wakatime_username: sujaykundu777
 
 # mailchimp embedded form url (newsletter):
-mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
+# mailchimp_form_url: https://sujaykundu.us10.list-manage.com/subscribe/post?u=50bab1c85eae24ecfb0f68361&amp;id=3a2dd721d0
 
 # contact form - (choose formspress or getform)
 # getform_endpoint: 83b703c3-9e47-4df4-ac55-e24d7eb02abc
