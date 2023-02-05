@@ -4,7 +4,7 @@ title:  "CI/CD Pipeline for deploying dynamic Website"
 summary: "Multi Author Support allows to create articles with different Authors"
 author: Eman Sami
 date: '2022-12-14 21:45:35 +0200'
-category: jekyll
+category: ['CICD','Pipeline', 'DevOps']
 thumbnail: /assets/img/posts/aws.png
 keywords: devlopr jekyll, how to use devlopr, devlopr, how to use devlopr-jekyll, devlopr-jekyll tutorial,best jekyll themes, multi author
 usemathjax: true

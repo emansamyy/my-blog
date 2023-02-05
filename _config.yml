@@ -1,5 +1,5 @@
 title: Eman Sami
-subtitle: A Portfolio for my work
+subtitle: A Portfolio For My Work
 description: >- # this means to ignore newlines until "baseurl:"
   My personal blog to show my projects in Software Engineering and Cloud DevOps
 
@@ -30,7 +30,7 @@ author_bio: Hi, my name is Eman Sami. A self-motivated Software Engineer with a 
 author_email: "emansamyy79@gmail.com"
 author_location: Egypt
 # author_website_url: "https://sujaykundu.com"
-typewrite-text: Software Engineer | Cloud | Devops
+typewrite-text: Software Engineer | Cloud | DevOps
 hero_cover_img: 1.png # replace this for changing homepage cover (eg. try cover.jpeg). Image should be in /assets/img
 
 # Experiences
@@ -69,7 +69,7 @@ author_project_details:
 twitter_username: emansamyjsk
 github_username:  emansamyy
 facebook_username: Eman Samy
-linkedin_username: eman-sami-b0bb107a
+linkedin_username: eman-sami-hassanin
 instagram_username: emxavv
 
 
@@ -108,20 +108,20 @@ per_page: 4
 paginate_path: "/blog/page/:num/"
 
 # minify
-# compress_html:
-#   clippings: all
-#   comments: ["<!-- ", " -->"]
-#   endings: all
-#   ignore:
-#     envs: ['development']
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]
+  endings: all
+  ignore:
+    envs: ['development']
 
 # Archives
-# jekyll-archives:
-#   enabled:
-#     - categories
-#   layout: archive
-#   permalinks:
-#     category: '/category/:name/'
+jekyll-archives:
+  enabled:
+    - categories
+  layout: archive
+  permalinks:
+    category: '/category/:name/'
 
 collections:
   products:

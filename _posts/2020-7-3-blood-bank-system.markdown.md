@@ -8,7 +8,7 @@ category: ['Nodejs','Web Development', 'Fullstack']
 tags: Node
 thumbnail: /assets/img/bbs.png
 keywords: Blood bank service, nodejs , express, web development
-permalink: /blog/adding-categories-tags-in-posts/
+permalink: /blog/cicd-pipeline/
 ---
 
 ## Features

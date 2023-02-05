@@ -1,34 +1,34 @@
 ---
 layout: post
-author: johndoe
+author: emansamyy
 title: "Deploy High Availability Website on AWS"
 date: '2022-6-14 21:45:35 +0200'
-thumbnail: /assets/img/posts/aws.png
-category: jekyll
-summary: Demo Content using Netlify CMS
-keywords: using netlify cms with devlopr-jekyll, devlopr jekyll netlify cms, how to use netlify cms
-permalink: /blog/using-netlify-cms/
+thumbnail: /assets/img/posts/Udacity_Project2.jpeg
+category: ['DevOps','Deployment']
+summary: This project is developed as part of the Udacity Advanced Cloud DevOps Nanodegree.
+keywords: high availability website
+permalink: /blog/high-availability-website/
 ---
-## Hello World
+## Infrastructure as Code (IaC)
 
-This page is a demo that shows everything you can do inside blog posts. Hi !
 
-We’ve included everything you need to create engaging posts about your work, and show off your case studies in a beautiful way.
+    The launch configuration script is written inside the servers.yml
+    file and it echoes that the app works but you can edit and add html
+    files and related styling files to show that page instead of the message.
+    Change the instance type according to requirements.
+    The AMI changes according to regions, change it accordingly
 
-**Obviously,**we’ve styled up *all the basic* text formatting options available in [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
-You can create lists:
+### Security Groups and Roles
 
-* Simple bulleted lists
-* Like this one
-* Are cool
 
-And:
+   - an IAM Role that allows instances to use the S3 Service.
+   - The app communicates on the default HTTP Port: 80, so servers will need this inbound port open since you will use it with the Load Balancer and * the Load Balancer Health Check. As for outbound, the servers will need unrestricted internet access to be able to download and update their software.
+   - The load balancer should allow all public traffic (0.0.0.0/0) on port 80 inbound, which is the default HTTP port. Outbound, it will only be using port 80 to reach the internal servers.
+   - The application needs to be deployed into private subnets with a Load Balancer located in a public subnet. One of the output exports of the CloudFormation script should be the public URL of the LoadBalancer.
 
-1. Numbered lists
-2. Like this other one
-3. Are great too
 
-You can also add **blockquotes**, which are shown at a larger width to help break up the layout and draw attention to key parts of your content:
 
-> “Simple can be harder than complex: You have to work hard to get your thinking clean to make it simple. But it’s worth it in the end because once you get there, you can move mountains.”
+
+
+[click to view code](https://github.com/emansamyy/Deploy-a-High-Availability-Website)
